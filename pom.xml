@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gcu</groupId>
-    <artifactId>topic3-1</artifactId>
+    <artifactId>topic3-2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>topic3-1</name>
-    <description>topic3-1</description>
+    <name>topic3-2</name>
+    <description>topic3-2</description>
     <properties>
         <java.version>11</java.version>
         <repackage.classifier/>
@@ -49,6 +49,15 @@
         <dependency>
             <groupId>nz.net.ultraq.thymeleaf</groupId>
             <artifactId>thymeleaf-layout-dialect</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jvnet.jaxb2.maven2</groupId>
+            <artifactId>maven-jaxb2-plugin</artifactId>
+            <version>0.14.0</version>
         </dependency>
     </dependencies>
 

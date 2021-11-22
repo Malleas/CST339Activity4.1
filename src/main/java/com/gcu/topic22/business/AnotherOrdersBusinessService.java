@@ -21,4 +21,14 @@ public class AnotherOrdersBusinessService implements OrdersBusinessServiceInterf
         orders.add(new OrderModel(4L, "00000005", "Product 5", 5.00f, 5));
         return orders;
     }
+
+    @Override
+    public void init() {
+        System.out.println("Hello from AOBS init()");
+    }
+
+    @Override
+    public void destroy() {
+        System.out.println("Hello from AOBS destroy()");
+    }
 }
